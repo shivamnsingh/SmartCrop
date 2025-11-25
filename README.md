@@ -74,11 +74,7 @@ git clone https://github.com/shivamnsingh/SmartCrop.git
 cd SmartCrop
 pip install -r requirements.txt
 streamlit run app.py
-```
 
-The application will open in your browser at `http://localhost:8501`
-
----
 
 ## ✨ Key Features
 

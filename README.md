@@ -444,7 +444,7 @@ joblib==1.3.2            # Model serialization
 
 <div align="center">
 
-![Home Page](https://via.placeholder.com/800x500/f0f2f6/333333?text=Home+Page+Screenshot)
+![App Screenshot](https://raw.githubusercontent.com/shivamnsingh/SmartCrop/refs/heads/main/Screenshot%202025-11-26%20001521.png)
 
 *Clean and intuitive input interface*
 
@@ -454,17 +454,17 @@ joblib==1.3.2            # Model serialization
 
 <div align="center">
 
-![Prediction Results](https://via.placeholder.com/800x500/e8f4f8/333333?text=Prediction+Results+Screenshot)
+![Prediction Results](https://raw.githubusercontent.com/shivamnsingh/SmartCrop/refs/heads/main/Screenshot%202025-11-26%20001541.png)
 
 *Top-3 recommendations with emoji icons and confidence scores*
 
 </div>
 
-### 3. Input Summary
+### 3. Full Interface
 
 <div align="center">
 
-![Input Summary](https://via.placeholder.com/800x500/f0f2f6/333333?text=Input+Summary+Screenshot)
+![Input Summary](https://raw.githubusercontent.com/shivamnsingh/SmartCrop/refs/heads/main/Screenshot%202025-11-26%20001557.png)
 
 *Detailed breakdown of environmental parameters*
 

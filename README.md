@@ -390,21 +390,16 @@ SmartCrop/
 │   └── Crop_recommendation.csv          # Training dataset (1,400 samples)
 │
 ├── 📓 notebooks/
-│   └── train_model.ipynb                # Training notebook with EDA
+│   └── code.ipynb                # Training notebook with EDA
 │
 ├── 🤖 models/
 │   ├── crop_model.pkl                   # Trained pipeline (1.2 MB)
 │   └── label_encoder.pkl                # Label encoder (1.5 KB)
 │
-├── 🎨 app.py                            # Streamlit web application
-├── 🐍 train_model.py                    # Training script
-│
+├── 🎨 app.py                            # Streamlit web application                  
 ├── 📋 requirements.txt                  # Python dependencies
 ├── 📖 README.md                         # Project documentation
 ├── 📄 LICENSE                           # MIT License
-├── 🖼️ .streamlit/
-│   └── config.toml                      # Streamlit configuration
-│
 └── 📸 screenshots/                      # Application screenshots
     ├── home.png
     ├── prediction.png

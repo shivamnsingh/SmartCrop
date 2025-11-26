@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Crop Recommendation Banner](https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&h=300&fit=crop)
-
+</div align="center">
 # Smart Crop Recommendation System
 
 <div align="center">

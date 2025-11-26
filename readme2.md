@@ -318,6 +318,40 @@ joblib==1.3.2            # Model serialization
 
 ---
 
+## Screenshots
+
+### Application Interface
+
+<div align="center">
+
+![Home Interface](https://raw.githubusercontent.com/shivamnsingh/SmartCrop/refs/heads/main/Screenshot%202025-11-26%20001521.png)
+
+*Input interface with environmental parameter controls*
+
+</div>
+
+### Prediction Results
+
+<div align="center">
+
+![Prediction Results](https://raw.githubusercontent.com/shivamnsingh/SmartCrop/refs/heads/main/Screenshot%202025-11-26%20001541.png)
+
+*Top-3 crop recommendations with confidence scores*
+
+</div>
+
+### Detailed Summary
+
+<div align="center">
+
+![Input Summary](https://raw.githubusercontent.com/shivamnsingh/SmartCrop/refs/heads/main/Screenshot%202025-11-26%20001557.png)
+
+*Complete prediction summary with input parameters*
+
+</div>
+
+---
+
 ## Future Enhancements
 
 ### Planned Features

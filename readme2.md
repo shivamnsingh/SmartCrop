@@ -54,6 +54,14 @@ The system analyzes five key parameters:
 
 Using a Random Forest Classifier, it recommends the most suitable crop from 13 varieties with associated confidence scores.
 
+```mermaid
+graph LR
+    A[Environmental<br/>Parameters] --> B[Machine Learning<br/>Model]
+    B --> C[Crop<br/>Recommendation]
+    C --> D[Confidence<br/>Score]
+    style B fill:#4CAF50,stroke:#333,stroke-width:2px
+```
+
 ---
 
 ## Key Features
@@ -111,6 +119,22 @@ Season Distribution:
 
 The system uses a scikit-learn Pipeline combining preprocessing and classification:
 
+```mermaid
+flowchart TD
+    A[Raw Input Data] --> B{ColumnTransformer}
+    B -->|Categorical| C[Season]
+    B -->|Numerical| D[Temperature, Humidity,<br/>pH, Water]
+    C --> E[OneHotEncoder<br/>drop='first']
+    D --> F[Passthrough<br/>No Scaling]
+    E --> G[Random Forest<br/>Classifier]
+    F --> G
+    G --> H[Crop Prediction]
+    G --> I[Probability Scores]
+    style G fill:#2196F3,stroke:#333,stroke-width:2px
+```
+
+**Implementation Details:**
+
 ```python
 Pipeline Architecture:
 │
@@ -159,9 +183,35 @@ Pipeline Architecture:
 - **Perfect Classification**: 11 out of 13 crops achieved 100% accuracy
 - **Inference Speed**: Approximately 10ms per prediction
 
-### Confusion Matrix Highlights
+### Confusion Matrix Analysis
 
-The confusion matrix shows strong diagonal dominance, indicating excellent classification performance across all 13 crop classes with minimal confusion between similar crops.
+The confusion matrix demonstrates strong diagonal dominance, indicating excellent classification performance:
+
+```
+Confusion Matrix (13 Crop Classes × 280 Test Samples)
+
+             Predicted Classes
+             ┌─────────────────────────────────────────┐
+             │ 0  1  2  3  4  5  6  7  8  9 10 11 12  │
+          ┌──┼─────────────────────────────────────────┤
+        0 │  │22  0  0  0  0  0  0  0  0  0  0  0  0  │ Blackgram
+        1 │  │ 0 22  0  0  0  0  0  0  0  0  0  0  0  │ Chickpea
+        2 │  │ 0  0 14  0  0  0  0  0  0  0  0  0  0  │ Cotton
+        3 │  │ 0  0  0 18  0  0  0  0  0  0  0  0  0  │ Jute
+True    4 │  │ 0  0  0  0 20  0  0  0  0  0  0  0  0  │ Kidneybeans
+Classes 5 │  │ 0  0  0  0  0 23  0  0  0  0  0  0  0  │ Lentil
+        6 │  │ 0  0  0  0  0  0 39  0  0  0  0  0  0  │ Maize
+        7 │  │ 0  0  0  0  0  0  0 22  0  0  0  0  0  │ Mothbeans
+        8 │  │ 0  0  0  0  0  0  0  0 21  0  0  0  0  │ Mungbean
+        9 │  │ 0  0  0  0  0  0  0  0  0 20  0  0  0  │ Muskmelon
+       10 │  │ 0  0  0  0  0  0  1  0  0  0 19  0  0  │ Pigeonpeas*
+       11 │  │ 0  0  0  2  0  0  0  0  0  0  0 17  0  │ Rice*
+       12 │  │ 0  0  0  0  0  0  0  0  0  0  0  0 20  │ Watermelon
+          └──┴─────────────────────────────────────────┘
+
+*Minor misclassifications: 1 Pigeonpeas → Maize, 2 Rice → Jute
+Overall: 11/13 crops with perfect classification
+```
 
 ---
 

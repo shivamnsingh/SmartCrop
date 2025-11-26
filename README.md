@@ -1,9 +1,3 @@
-# 🌾 Smart Crop Recommendation System
-
-<div align="center">
-
-![Crop Recommendation Banner](https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&h=300&fit=crop)
-</div align="center">
 # Smart Crop Recommendation System
 
 <div align="center">
@@ -11,11 +5,12 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Status](https://img.shields.io/badge/Status-Production_Ready-success?style=for-the-badge)](https://github.com/shivamnsingh/SmartCrop)
 
 **An intelligent machine learning-powered web application for optimal crop recommendation based on environmental conditions**
 
-[Features](#key-features) • [Installation](#installation) • [Usage](#usage) • [Model Performance](#model-performance) • [Documentation](#documentation)
+[Features](#key-features) • [Installation](#installation) • [Usage](#usage) • [Model Performance](#model-performance) • [Documentation](#table-of-contents)
 
 </div>
 
@@ -32,10 +27,12 @@
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Technology Stack](#technology-stack)
+- [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -272,9 +269,9 @@ The model trains automatically if `crop_model.pkl` is not found. For manual trai
 
 ```bash
 # Using Jupyter notebook
-jupyter notebook train_model.ipynb
+jupyter notebook code.ipynb
 
-# Or using Python script
+# Or using Python script (if available)
 python train_model.py
 ```
 
@@ -458,16 +455,32 @@ Contributions are welcome and greatly appreciated. To contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for complete details.
 
+```text
+MIT License
+
+Copyright (c) 2024 Shivam Singh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+```
+
 ---
 
 ## Contact
 
 **Shivam Singh**
 
-- GitHub: [@shivamnsingh](https://github.com/shivamnsingh)
-- LinkedIn: [shivamnsingh](https://www.linkedin.com/in/shivamnsingh)
-- Email: singhshivam11230@gmail.com
-- Portfolio: [shivamm.me](https://shivamm.me/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shivamnsingh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivamnsingh)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:singhshivam11230@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://shivamm.me/)
 
 **Project Repository**: [https://github.com/shivamnsingh/SmartCrop](https://github.com/shivamnsingh/SmartCrop)
 
@@ -477,24 +490,40 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Resources and Credits
 
-- **Dataset**: Rishabh Rathore via Kaggle
+- **Dataset**: [Rishabh Rathore via Kaggle](https://www.kaggle.com/datasets/rishabhrathore055/datas)
 - **Framework**: Scikit-Learn development team
 - **Web Platform**: Streamlit team
 - **Community**: Agricultural experts and open-source contributors
+
+### Special Thanks
+
+- Research papers on precision agriculture
+- Agricultural forums and communities
+- Stack Overflow community
+- GitHub open-source community
 
 ---
 
 ## Project Statistics
 
+<div align="center">
+
 ![GitHub Stars](https://img.shields.io/github/stars/shivamnsingh/SmartCrop?style=social)
 ![GitHub Forks](https://img.shields.io/github/forks/shivamnsingh/SmartCrop?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/shivamnsingh/SmartCrop?style=social)
+
 ![GitHub Issues](https://img.shields.io/github/issues/shivamnsingh/SmartCrop)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/shivamnsingh/SmartCrop)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/shivamnsingh/SmartCrop)
+
+</div>
 
 ---
 
 <div align="center">
 
 **Empowering agricultural decision-making through machine learning**
+
+Made with dedication for farmers and agricultural technology enthusiasts
 
 </div>

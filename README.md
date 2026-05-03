@@ -522,7 +522,6 @@ copies or substantial portions of the Software.
 
 <div align="center">
 
-**Empowering agricultural decision-making through machine learning**
 
 Made with dedication for farmers and agricultural technology enthusiasts
 

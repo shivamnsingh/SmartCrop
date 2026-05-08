@@ -514,7 +514,6 @@ copies or substantial portions of the Software.
 
 ![GitHub Issues](https://img.shields.io/github/issues/shivamnsingh/SmartCrop)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/shivamnsingh/SmartCrop)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/shivamnsingh/SmartCrop)
 
 </div>
 
